@@ -1,5 +1,5 @@
 [project]
-name = "bitebase Intelligence"
+name = "agent-tool"
 version = "0.0.1"
 description = "A tool for an AI agent"
 authors = [{ name = "Restack Team", email = "service@restack.io" }]
