@@ -1,0 +1,51 @@
+# Database
+sqlalchemy
+alembic
+psycopg2-binary
+python-dotenv
+
+# Web Framework
+next
+zod
+
+# Scraping
+playwright
+beautifulsoup4
+fake-useragent
+aiohttp
+asyncio
+
+# AI/ML
+langchain
+openai
+transformers
+torch
+scikit-learn
+
+# CLI
+click
+rich
+
+# Utilities
+python-jose[cryptography]
+pydantic
+pandas
+numpy
+requests
+httpx
+
+# Testing
+pytest
+pytest-asyncio
+pytest-cov
+
+# Development
+black
+isort
+flake8
+mypy
+
+# Monitoring
+prometheus-client
+sentry-sdk
+python-json-logger
