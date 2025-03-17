@@ -19,6 +19,7 @@ openai
 transformers
 torch
 scikit-learn
+restack_ai
 
 # CLI
 click
