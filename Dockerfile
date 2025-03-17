@@ -4,10 +4,10 @@ WORKDIR /app
 
 # Install uv and other dependencies
 COPY requirements.txt .
-RUN pip install --no-cache-dir uv && uv sync
+RUN pip install  -r requirements.txt
 
 # Copy the rest of the application code
 COPY . .
 
 # Set the command to run the application with uv
-CMD ["uv", "run", "dev"]
+CMD ["pip", "install","-e", "."]
