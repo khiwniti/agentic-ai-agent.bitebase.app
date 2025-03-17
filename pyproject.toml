@@ -1,7 +1,3 @@
-[build-system]
-requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
-build-backend = "setuptools.build_meta"
-
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 python_files = ["test_*.py"]
@@ -35,7 +31,7 @@ ensure_newline_before_comments = true
 line_length = 88
 
 [tool.mypy]
-python_version = "3.9"
+python_version = "3.10"
 warn_return_any = true
 warn_unused_configs = true
 check_untyped_defs = true
@@ -59,7 +55,7 @@ exclude_lines = [
 [project]
 name = "agent_rag"
 version = "0.0.1"
-description = "A an agent with RAG"
+description = "An agent with RAG"
 authors = [{ name = "Restack Team", email = "service@restack.io" }]
 requires-python = ">=3.10,<3.13"
 readme = "README.md"
@@ -73,8 +69,8 @@ dependencies = [
 ]
 
 [project.urls]
-Documentation = "https://github.com/yourusername/bitebase#readme"
-Repository = "https://github.com/yourusername/bitebase.git"
+Documentation = "https://github.com/khiwniti/agent-rag#readme"
+Repository = "https://github.com/khiwniti/agent-rag.git"
 
 [project.scripts]
 dev = "src.services:watch_services"
@@ -89,3 +85,4 @@ include = ["src"]
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+

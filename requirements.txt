@@ -4,9 +4,7 @@ alembic
 psycopg2-binary
 python-dotenv
 
-# Web Framework
-next
-zod
+
 
 # Scraping
 playwright
